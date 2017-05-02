@@ -22,4 +22,7 @@ Returns the last price for currency `curr` in currency `base`
 Example:  
 `=getLastPrice("ZEC", "BTC")`
 
+#### function getDataRefreshedTime()
+Returns the time when the price data was fetched last time
+
 
