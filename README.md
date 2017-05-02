@@ -10,19 +10,19 @@ Returns the last price for currency in `CURRBASE` pair format, e.g.:
 `"ZECUSD"`  
 `"ZECUSDT"`  
 
-Example:  
+Example usage:  
 `=getPairLastPrice("ZECUSD")`
 
 If omitted, "BTC" will be used as base, e.g.:
 `"ZEC"`  
 
 #### function getLastPrice(curr, base)
-Returns the last price for currency `curr` in currency `base`
+Returns the last price for currency `curr` in currency `base`.
 
-Example:  
+Example usage:  
 `=getLastPrice("ZEC", "BTC")`
 
 #### function getDataRefreshedTime()
-Returns the time when the price data was fetched last time
+Returns the time when the price data was fetched last time.
 
 
